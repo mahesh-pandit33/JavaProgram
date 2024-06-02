@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage('clone Repo') {
+            steps {
+                
+                bat "git clone https://github.com/mahesh-pandit33/JavaProgram.git"
+            
+            }
+        }
+    }
+}
